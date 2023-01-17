@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: rgb(13, 14, 14);
+   
+}
+
+form {
+  width: 400px;
+  border: 1px solid cyan ;
+  background-color: rgb(12, 12, 12);
+  border-radius: 15px;
+  padding: 1.5rem;
+  color: aqua;
+  display: flex;
+  flex-direction: column;
+  
+  
+
+}
+
+.Box {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+
+
+
+form button {
+  margin: auto;
+  display: block;
+}
+
+li {
+  list-style: none;
+  border: 1px solid ;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: rgb(19, 18, 18);
+  color: aqua;
+  height: 130px;
+  width: 6.5cm;
+}
+li > h4 {
+  font-weight: 400;
+}
+li span {
+  font-weight: bold;
+}
+
+li button {
+  margin-right: 1rem;
+  padding: 0.25rem 1.25rem;
+}
+
+.delete {
+  border: 1px solid rgb(12, 12, 12);
+  background-color: rgb(247, 5, 5);
+  color: white;
+  border-radius: 5px;
+}
+
+.edit {
+  border: 1px solid rgb(12, 12, 12);
+  background-color: greenyellow;
+  color:black;
+  padding: 0.25rem 1.25rem;
+  border-radius: 5px;
+}
+
+
